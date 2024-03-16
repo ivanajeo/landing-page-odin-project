@@ -205,11 +205,17 @@ body {
 .cta__btn {
     border: 3px solid var(--clr-light);
 }
+
 .footer {
+    font-size: 1.125rem;
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    padding: 2rem 0;
+    padding: 2rem 0 2.5rem;
     text-align: center;
+}
+
+.copyright {
+    margin-bottom: 0.15em;
 }
 
 .github-link {
