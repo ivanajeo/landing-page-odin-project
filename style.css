@@ -50,13 +50,23 @@ body {
     width: 85%;
     max-width: 1280px;
     margin: 0 auto;
-    border: 2px solid var(--clr-blue);
 }
 
 .flex-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.btn {
+    background-color: var(--clr-blue);
+    color: var(--clr-light);
+    font-weight: var(--fw-bold);
+    font-size: 1.25rem;
+    border: none;
+    text-decoration: none;
+    padding: 0.5em 2.25em;
+    border-radius: 8px;
 }
 
 .header {
@@ -88,12 +98,10 @@ body {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     padding: 8rem 0;
-    border: 2px solid red;
 }
 
 .hero-img {
     width: 52%;
-    border: 2px solid greenyellow;
 }
 
 .hero--left {
@@ -119,6 +127,7 @@ body {
 .box--info {
     padding: 3rem 0 5rem;
 }
+
 .box__title {
     text-align: center;
     color: var(--clr-dark);
@@ -162,8 +171,6 @@ body {
 
     width: 85%;
     margin: 0 auto;
-    border: 2px solid salmon;
-
 }
 
 .author {
@@ -195,6 +202,9 @@ body {
     font-size: 1.125rem;
 }
 
+.cta__btn {
+    border: 3px solid var(--clr-light);
+}
 .footer {
     background-color: var(--clr-dark);
     color: var(--clr-light);
