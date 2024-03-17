@@ -69,6 +69,11 @@ body {
     border-radius: 8px;
 }
 
+.btn:is(:hover, :active) {
+    cursor: pointer;
+    background-color: #6ca4ff;
+}
+
 .header {
     background-color: var(--clr-dark);
 }
@@ -92,6 +97,11 @@ body {
     cursor: pointer;
     text-decoration: none;
     color: var(--clr-light);
+}
+
+.nav-link:is(:hover, :active) {
+    cursor: pointer;
+    color:#c2c4c7;
 }
 
 .hero {
@@ -146,6 +156,7 @@ body {
     max-width: 200px;
     text-align: center;
 }
+
 .icon {
     height: 100px;
     margin: 0 auto;
@@ -219,7 +230,11 @@ body {
 }
 
 .github-link {
-    cursor: pointer;
     text-decoration: none;
     color: var(--clr-blue);
+}
+
+.github-link:is(:hover, :active) {
+    cursor: pointer;
+    color: var(--clr-grey);
 }
